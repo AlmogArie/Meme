@@ -32,3 +32,13 @@ header .nav-bar {
 .search-words{
     font-size: 16px;
 }
+
+.canavas-container{
+    display: none;
+    background-color: gray;
+}
+
+canvas{
+    display: block;
+    border: 5px solid black;
+}

@@ -1,13 +1,13 @@
 'use strict';
 
 var gImgs = [{
-    id: 1,
-    url: 'meme-imgs(square)/1.jpg',
+    id: 0,
+    url: './meme-imgs(square)/1.jpg',
     keyWord: 'trump',
 }, {
-    id: 2,
-    url: 'meme-imgs(square)/2.jpg',
-    keyWord: 'cute',
+    id: 1,
+    url: './meme-imgs(square)/2.jpg',
+    keyWord: 'dogs',
 }]
 
 var gSortWords = ['funny', 'sad', 'happy', 'stupid', 'love']
@@ -31,7 +31,9 @@ function getImgs() {
 }
 
 function getImg(id) {
-    return gImg[id]
+    // console.log(gImgs[id]);
+    
+    return gImgs[id]
 }
 
 function getGSortWords(){
