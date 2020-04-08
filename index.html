@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+
+<header class="nav-bar ">
+    <h1>Meme generator</h1>
+    <div class="nav-bar flex space-evenly">
+        <span class="gallery" onclick="init()">Gallery</span>
+        <span class="meme-gallery">Meme</span>
+        <span class="about">About</span>
+    </div>
+</header>
+
+<section class="search-meme">
+ <input type="text" placeholder="Search Meme">   
+ <div class="searching-words"></div>
+</section>
+
+<section class="meme-pictures">
+    <!-- words to search by -->
+    <div class="search-words"></div>
+    <!-- picture gallery -->
+    <container class="picture-gallery flex space-evenly"></container>
+</section>
+
+
+
+
+
+
+
+    <script src="utile.js"></script>
+    <script src="service-meme.js"></script>
+<script src="control-meme.js"></script>
+</body>
+
+</html>
