@@ -1,30 +1,32 @@
 'use strict';
 
 var gImgs = [{
-    id: 0,
+    id: 1,
     url: './meme-imgs(square)/1.jpg',
     keyWord: 'trump',
 }, {
-    id: 1,
+    id: 2,
     url: './meme-imgs(square)/2.jpg',
     keyWord: 'dogs',
-}]
+}];
+
+
 
 var gSortWords = ['funny', 'sad', 'happy', 'stupid', 'love']
 
 
 // var gKeyWords
 
-// var gMeme = {
-//     selectedImgId: id,
-//     selectedLineIdx: lineIdx,
-//     line: [{
-//         text: txt,
-//         size: size,
-//         align: align,
-//         color: color,
-//     }]
-// }
+var gMeme = {
+    selectedImgId: "",
+    selectedLineIdx:"" ,
+    line: {
+        text: '',
+        size: '',
+        align: '',
+        color: '',
+    },
+}
 
 function getImgs() {
     return gImgs;
@@ -38,4 +40,8 @@ function getImg(id) {
 
 function getGSortWords(){
     return gSortWords;
+}
+
+function getGMeme(){
+    return gMeme;
 }
