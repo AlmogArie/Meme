@@ -42,3 +42,9 @@ canvas{
     display: block;
     border: 5px solid black;
 }
+
+.txt-canvas{
+    width: 50px;
+    background-color: white;
+    color: white;
+}

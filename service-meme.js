@@ -21,7 +21,8 @@ var gMeme = {
     selectedImgId: "",
     selectedLineIdx:"" ,
     line: {
-        text: '',
+        topTxt: '',
+        botTxt:'',
         size: '',
         align: '',
         color: '',
